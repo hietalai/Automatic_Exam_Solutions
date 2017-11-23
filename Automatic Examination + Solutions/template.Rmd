@@ -1,0 +1,55 @@
+---
+title: "Tentamen"
+author: "Linköpings universitet, Institutionen för datavetenskap (IDA), Avdelningen för Statistik och maskininlärning (STIMA)"
+date: ""
+header-includes:
+   - \usepackage{float}
+   - \usepackage{lmodern}
+output: pdf_document
+---
+
+--------------------  -------------------------------------------------------------
+Kurskod och namn:     
+Datum och tid:        
+Jourhavande lärare:   Isak Hietala
+Tillåtna hjälpmedel:  
+Betygsgränser:        
+                      Siffrorna i uppgifterna är påhittade.
+                      Saknas någon siffra för att kunna lösa uppgiften, skriv då 
+                      tydligt ut att du saknar denna information, anta ett 
+                      godtyckligt värde och lös uppgiften med detta antagande.
+--------------------  -------------------------------------------------------------      
+
+**Redovisa, tolka och motivera tydligt alla dina lösningar!**
+
+```{r, include=FALSE}
+
+
+# Logical if solutions are included in the file
+solutions <- FALSE
+dir <- "C:/Users/isahi12/OD/Jobb/LiU/Kurser/0. R-funktioner/auto.exam"
+# dir <- "F:/OneDrive/OneDrive - Linköpings universitet/Jobb/LiU/Kurser/0. R-funktioner/auto.exam"
+
+setwd(dir)
+
+devtools::load_all()
+
+# Removes scientific notation
+options(scipen = 999)
+
+# Sets the seed for the random draws
+seed <- 85188576
+
+
+```
+
+# Uppgift 1 
+
+
+# Uppgift 2
+
+# Uppgift 3
+
+# Uppgift 4
+
+# Uppgift 5
